@@ -62,9 +62,9 @@ This research and software framework delivers an end-to-end, multi-stage pipelin
              ▼                             ▼
 ┌─────────────────────────┐   ┌──────────────────────────┐
 │  BEHAVIORAL INFERENCE   │   │  2027–2030 PROJECTIONS   │
-│  • Purchase Intent      │   │  Purchase Intent  ↘      │
-│  • Passive Browsing     │   │  Passive Browsing ↘      │
-│  • Churn Risk           │   │  Churn Risk       ↗      │
+│  • Purchase Intent      │   │  Purchase Intent         │
+│  • Passive Browsing     │   │  Passive Browsing        │
+│  • Churn Risk           │   │  Churn Risk              │
 └─────────────────────────┘   └──────────────────────────┘
 ```
 
@@ -238,16 +238,6 @@ Forecasts behavioral trajectories through 2030 and outputs tabular summaries.
 python nlp_comparison_viz.py
 ```
 Creates comparative visual artifacts illustrating sentiment distributions, topic-behavior heatmaps, and relative NLP feature contributions.
-
----
-
-## Database Management
-
-To inspect dataset status, clear specific staging tables, or truncate tables without writing manual queries, use the interactive helper:
-
-```bash
-python reset_database.py
-```
 
 ---
 
